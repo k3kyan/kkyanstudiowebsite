@@ -1,0 +1,59 @@
+.topic{
+    color: #1C4567;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-size: 40px;
+}
+
+#formStyle{
+   display: none;
+}
+
+.textButton{
+    display: flex;
+    width: 600px;
+    height: 300px;
+}
+
+.tab{
+    text-align: center;
+    margin: 1%
+}
+
+.img{
+    margin: 0 auto;
+    display: block;
+    width: 600px;
+    height: 300px;
+}
+
+#button{
+    border-bottom-width: 4px;
+    border-color: #1926df;
+    border-top-width: 0.5px;
+    border-left-width: 0.5px;
+    border-right-width: 0.5px;
+    background-color: transparent;
+    width: 1000px;
+    height: 100px; 
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#button:active {
+    background-color:#e3e6e9;
+}
+
+#buttonHeader{
+    color: #1C4567;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    vertical-align: middle;
+    font-size: 40px;
+    height: 45px;
+    width:600px;
+    line-height: 50px;
+    
+}
