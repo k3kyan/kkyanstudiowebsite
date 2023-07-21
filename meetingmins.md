@@ -4,6 +4,7 @@
 - Discuss dropdown tabs and sub-pages under those pages
 - AWS Certification? 
 - Adjust roles with 3rd person
+
 **Homework**
 Kelly - Finish UI Mockup
     - Create Meeting Mins
@@ -14,6 +15,7 @@ Sophia - Start working on About page and all subpages
 ## Meeting Mins 7/14/2023
 **Talking Points**
 - Added Sophia, GitHub permissions
+
 **Homework**
 Kelly - Work on UI mockup
 Sam - Learn React, work more on commissions page
