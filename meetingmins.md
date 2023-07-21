@@ -22,13 +22,14 @@
 
 **Homework**
 - Kelly
-    - Work on UI mockup
+    - Work on UI mockup (PhotoShop)
 - Sam 
     - Learn React, work more on commissions page
 - Sophia 
     - Create a separate branch to experiment and learn HTML and JavaScript
     - Resources: freecodecamp, w3schools, https://react.dev/learn
     - Help: youtube, chatgpt
+    - Download Visual Studio Code
 
 ## Meeting Mins 7/2/2023
 **Talking Points**
@@ -58,6 +59,7 @@
     - Create branch on github to start experimenting and learning HTMl, JavaScript, React
     - Research languages, resources, how to deploy websites publically, domains, caches, hosts, servers
     - https://www.freecodecamp.org/learn
+    - Set up Visual Studio Code
 
 
 # Website Outline Doc (locked, for internal use only)
