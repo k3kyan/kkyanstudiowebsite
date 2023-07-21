@@ -33,6 +33,7 @@
 **Talking Points**
 - Split roles in who works on what components of the website
 - discuss kelly's research
+
 **Homework**
 - Kelly
     - Continue research and asking coworkers about web dev and deployment
@@ -48,6 +49,7 @@
     - Payment method
     - Databases
 - Create GitHub
+
 **Homework**
 - Kelly 
     - Research languages, resources, how to deploy websites publically, domains, caches, hosts, servers
