@@ -10,6 +10,7 @@
     - Finish UI Mockup
     - Create Meeting Mins
     - Research Backend possibilities, admin implementation methods, decide whether we use e-commerce react components or springboot
+    - Create Header
 - Sam 
     - Start working on Commissions page and Home page for real
 - Sophia 
