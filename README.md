@@ -1,5 +1,0 @@
-
-# kkyanstudiowebsite
-
-
-sdlkfj
