@@ -9,7 +9,7 @@
 
 .main{
     color: #1C4567;
-    margin-left: 400px;
+    margin-left: 25%;
     padding: 30px;
     font-family: 'Assistant', sans-serif;
     font-size: 20px;
@@ -28,4 +28,10 @@
     font-size: 20px;
     color: #1C4567;
     display: block;
+}
+
+.image {
+    vertical-align: text-top;
+    height:250px;
+    margin-left:40%;
 }
