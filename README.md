@@ -7,8 +7,11 @@ Project Members:
 - Anna Dubey
 
 Purpose of Project:
-To create a website for Kelly Yan's small art shop
+To create a website for Kelly Yan's small art business
 
-Languages Used:
+Tools Used:
 - React
-- [more potentially, wip]
+- Spring Boot
+- MySQL
+- REST API's
+- Stripe Software
