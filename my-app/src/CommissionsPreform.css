@@ -1,0 +1,13 @@
+.topic{
+    color: #1C4567;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-size: 40px;
+}
+ 
+.img{
+    margin: 0 auto;
+    display: block;
+    width: 600px;
+    height: 300px;
+}
