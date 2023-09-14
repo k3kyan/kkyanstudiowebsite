@@ -6,7 +6,7 @@ const Tutorials = () =>
     return (
         <div>
             <div className="header">
-                <h1>About</h1>
+                <h1>Tutorials</h1>
             </div>
             <main class="main">
                 <section id="about">

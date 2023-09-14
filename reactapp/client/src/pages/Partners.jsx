@@ -6,7 +6,7 @@ const Partners = () =>
     return (
         <div>
             <div className="header">
-                <h1>About</h1>
+                <h1>Partners</h1>
             </div>
             <main class="main">
                 <section id="partners">

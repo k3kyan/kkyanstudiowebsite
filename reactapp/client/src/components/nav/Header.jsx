@@ -1,4 +1,5 @@
-import { HomeTwoTone, EditTwoTone, CheckCircleTwoTone } from '@ant-design/icons';
+import React from 'react';
+import './Header.css';
 import { Menu } from 'antd';
 import { useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
@@ -12,22 +13,37 @@ const Header = () => {
   };
   return (
     <>
-     <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" >
-     <Menu.SubMenu key="m" title="About" icon={<HomeTwoTone />} style={{ marginLeft: 'auto'  }}>
-      <Menu.Item key="h" icon= {<HomeTwoTone />}>
+    <div className="header-container">
+     <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" className="header-menu">
+      <Menu.Item key ='h'>
+        Home
+      </Menu.Item>
+
+      <Menu.Item key ='s'>
+        Shop
+      </Menu.Item>
+
+      <Menu.Item key ='c'>
+        Commission
+      </Menu.Item>
+
+     <Menu.SubMenu key="about" title={<span>About</span>} >
+      <Menu.Item key="a">
        <Link to="/">About Kyue Studio</Link>
       </Menu.Item>
-      <Menu.Item key="f" icon= {<EditTwoTone />}>
+      <Menu.Item key="f">
         <Link to="/faq">FAQ</Link>
       </Menu.Item>
-      <Menu.Item key="t" icon= {<EditTwoTone />}>
+      <Menu.Item key="t">
         <Link to="/tutorials">Tutorials</Link>
       </Menu.Item>
-      <Menu.Item key="p" icon= {<CheckCircleTwoTone />}>
+      <Menu.Item key="p">
         <Link to="/partners">Partners</Link>
       </Menu.Item>
-      </Menu.SubMenu>
+    </Menu.SubMenu>
+
      </Menu>
+     </div>
      <Outlet/>
     </>
    
