@@ -10,10 +10,10 @@ function FAQ()
             </div>
 
             <div className="sidenav">
-                <a href="aboutpage.html" className='link'>About</a><br />
-                <a href="faq.html" className='link'>FAQ</a><br />
-                <a href="tutorial1.html" className='link'>Tutorials</a><br />
-                <a href="partners.html" className='link'>Partners</a>
+            <a href="aboutpage.html">About</a><br></br>
+            <a href="faq.html">FAQ</a><br></br>
+            <a href="tutorial1.html">Tutorials</a><br></br>
+            <a href="partners.html">Partners</a>
             </div>
 
             <main class="main">

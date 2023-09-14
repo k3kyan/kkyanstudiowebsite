@@ -10,10 +10,10 @@ function Tutorials()
             </div>
 
             <div className="sidenav">
-            <a href="aboutpage.html" style="text-decoration: none">About</a><br></br>
-            <a href="faq.html" style="text-decoration: none">FAQ</a><br></br>
-            <a href="tutorial1.html" style="text-decoration: none">Tutorials</a><br></br>
-            <a href="partners.html" style="text-decoration: none">Partners</a>
+            <a href="aboutpage.html">About</a><br></br>
+            <a href="faq.html">FAQ</a><br></br>
+            <a href="tutorial1.html">Tutorials</a><br></br>
+            <a href="partners.html">Partners</a>
             </div>
 
             <main class="main">
