@@ -2,9 +2,15 @@
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    padding: 10px; /* Adjust the padding as needed */
+    padding: 15px; /* Adjust the padding as needed */
 }
-  
+
 .header-menu {
     font-size: 30px; /* Adjust the font size as needed */
+    width: calc(100% - 120px);
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 15px; /* Adjust the padding as needed */
+    text-decoration: none;
 }

@@ -5,16 +5,18 @@ import FAQ from './pages/FAQ';
 import Partners from './pages/Partners';
 import Tutorials from './pages/Tutorials';
 import Header from './components/nav/Header';
+import CommissionsPreform from './pages/CommissionsPreform';
 
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Header />}>
-      <Route index element={<About />} />
+      <Route path="about" element={<About />} />
       <Route path="faq" element={<FAQ />} />
       <Route path="partners" element={<Partners />} />
       <Route path="tutorials" element={<Tutorials />} />
+      <Route path="commissions" element={<CommissionsPreform />} />
     </Route>
   )
 )

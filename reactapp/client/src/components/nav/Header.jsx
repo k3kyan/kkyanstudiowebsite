@@ -24,21 +24,21 @@ const Header = () => {
       </Menu.Item>
 
       <Menu.Item key ='c'>
-        Commission
+        <Link to="/commissions" style={{ textDecoration: 'none' }}>Commissions</Link>
       </Menu.Item>
 
      <Menu.SubMenu key="about" title={<span>About</span>} >
       <Menu.Item key="a">
-       <Link to="/">About Kyue Studio</Link>
+       <Link to="/about" style={{ textDecoration: 'none' }}>About Kyue Studio</Link>
       </Menu.Item>
       <Menu.Item key="f">
-        <Link to="/faq">FAQ</Link>
+        <Link to="/faq" style={{ textDecoration: 'none' }}>FAQ</Link>
       </Menu.Item>
       <Menu.Item key="t">
-        <Link to="/tutorials">Tutorials</Link>
+        <Link to="/tutorials" style={{ textDecoration: 'none' }}>Tutorials</Link>
       </Menu.Item>
       <Menu.Item key="p">
-        <Link to="/partners">Partners</Link>
+        <Link to="/partners" style={{ textDecoration: 'none' }}>Partners</Link>
       </Menu.Item>
     </Menu.SubMenu>
 
