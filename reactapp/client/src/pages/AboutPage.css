@@ -1,0 +1,27 @@
+.header{
+    color: #1C4567;
+    text-align: center;
+    padding: 20px;
+    background: #d5deeb;
+    font-family: 'Assistant', sans-serif;
+    font-size: 30px;
+}
+
+.main{
+    color: #1C4567;
+    margin-left: 25%;
+    padding: 30px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+}
+
+
+.image {
+    vertical-align: text-top;
+    height:250px;
+    margin-left:40%;
+}
+
+.link {
+    text-decoration: none;
+  }
