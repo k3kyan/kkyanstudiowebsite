@@ -3,7 +3,7 @@ import './Header.css';
 import { Menu } from 'antd';
 import { useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
-
+import imgSrc from '../../../LoginPlaceholder.png'
 
 const Header = () => {
   const [current, setCurrent] = useState('h');
@@ -41,6 +41,10 @@ const Header = () => {
         <Link to="/partners" style={{ textDecoration: 'none' }}>Partners</Link>
       </Menu.Item>
     </Menu.SubMenu>
+
+    <Menu.Item key="l">
+        <Link to="/login" ><img src={imgSrc} alt='Login Image' width='100' height='50'></img></Link>
+    </Menu.Item>
 
      </Menu>
      </div>

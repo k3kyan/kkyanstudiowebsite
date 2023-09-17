@@ -5,9 +5,9 @@ import FAQ from './pages/FAQ';
 import Partners from './pages/Partners';
 import Tutorials from './pages/Tutorials';
 import Header from './components/nav/Header';
-import F from './pages/CommissionsPreform';
-
-
+import Commissions from './pages/CommissionsFormPage';
+import Login from './pages/LoginPage'
+import Register from './pages/Register'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,7 +16,9 @@ const router = createBrowserRouter(
       <Route path="faq" element={<FAQ />} />
       <Route path="partners" element={<Partners />} />
       <Route path="tutorials" element={<Tutorials />} />
-      <Route path="commissions" element={<F />} />
+      <Route path="commissions" element={<Commissions />} />
+      <Route path="login" element={<Login />} />
+      <Route path="register" element={<Register />} />
     </Route>
   )
 )
