@@ -1,4 +1,4 @@
-import './CommissionsForms.css';
+import './CommissionsForm.css';
 import React from 'react';
 //initially centered button
 //toggles between being centered and shifting text to the left with an input box on the right
