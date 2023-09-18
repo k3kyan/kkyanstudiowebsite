@@ -16,7 +16,7 @@ const Header = () => {
     <div className="header-container">
      <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" className="header-menu">
       <Menu.Item key ='h'>
-        <Link to="/home" style={{ textDecoration: 'none' }}>Home</Link>
+        <Link to="/" style={{ textDecoration: 'none' }}>Home</Link>
       </Menu.Item>
 
       <Menu.Item key ='s'>
