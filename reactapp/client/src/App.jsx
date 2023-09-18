@@ -31,7 +31,7 @@ const router = createBrowserRouter(
 )
 
 function App({routes}) {
-
+//     {<Home />} // trying to get the homepage to show up without clicking anything
   return (
     <>
       <RouterProvider router={router}/>

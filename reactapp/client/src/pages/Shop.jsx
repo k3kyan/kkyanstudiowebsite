@@ -10,7 +10,7 @@ const Shop = () =>
             </div>
             <main class="main">
             <section id="shop">
-                <b>list of products + sorting bar.. call products from database somehow... </b>
+                <b>!! list of products + sorting bar !! </b>
             </section>
 
             </main>

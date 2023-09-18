@@ -5,6 +5,9 @@ const Home = () =>
 {
     return (
         <div>
+            <div className="header">
+                <h1>Sorry, maintenance is ongoing. If you're a recruiter, check my GitHub with the link in my resume! Will be fixed and functioning by 9/20!!</h1>
+            </div>
             <main class="main">
                 <section id="featured-products">
                     <h2>Featured Products</h2>
