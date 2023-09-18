@@ -8,10 +8,17 @@ import Header from './components/nav/Header';
 import Commissions from './pages/CommissionsFormPage';
 import Login from './pages/LoginPage'
 import Register from './pages/Register'
+import Home from './pages/Home';
+import Shop from './pages/Shop';
+
+
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Header />}>
+      <Route path="home" element={<Home />} />
+      <Route path="shop" element={<Shop />} />
       <Route path="about" element={<About />} />
       <Route path="faq" element={<FAQ />} />
       <Route path="partners" element={<Partners />} />

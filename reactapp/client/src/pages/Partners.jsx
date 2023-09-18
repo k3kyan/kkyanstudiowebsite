@@ -11,7 +11,9 @@ const Partners = () =>
             <main class="main">
                 <section id="partners">
                     <h2>Partners</h2>
-                    <p>M.C. Jeter</p>
+                    {/* target and rel fields make the link open in a new tab*/}
+                    <p>M.C. Jeter: <a href="https://mcjeterbooks.com/" target="_blank" rel="noopener noreferrer">Website</a></p>
+                    <p>SlimWrites Tiana</p>
                 </section>
             </main>
         </div>
