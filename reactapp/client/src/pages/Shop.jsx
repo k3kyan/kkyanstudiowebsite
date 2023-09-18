@@ -6,12 +6,13 @@ const Shop = () =>
     return (
         <div>
             <div className="header">
-                <h1>FAQ</h1>
+                <h1>Shop</h1>
             </div>
             <main class="main">
-            <section id="faq">
-                <b>What does your shop focus onsdfsfsdffs?</b>
+            <section id="shop">
+                <b>list of products + sorting bar.. call products from database somehow... </b>
             </section>
+
             </main>
         </div>
     );
